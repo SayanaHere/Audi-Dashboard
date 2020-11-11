@@ -9,13 +9,15 @@
 	],
 "creatorBuild": "33081",
 "files": {
-	"/assets/Circle Bouncing.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/deploy/css/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/assets/Circle Bouncing.sketch",
-		"oF": 0
+		"oAP": "/deploy/css/styles-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -36,32 +38,46 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/deploy/style-min.css": {
+	"/deploy/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/style-min-min.css",
+		"oAP": "/deploy/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"/design/Dashbord SVG.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/style-min.css",
-		"oF": 0,
-		"oS": 3
+		"oAP": "/design/Dashbord SVG.sketch",
+		"oF": 0
 		},
-	"/dev/content/demo.kit": {
+	"/design/Saji_Audi A6_storyboard.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/design/Saji_Audi A6_storyboard.sketch",
+		"oF": 0
+		},
+	"/dev/content/dashboard.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/demo.html",
+		"oAP": "/dev/content/dashboard.html",
+		"oF": 0
+		},
+	"/dev/content/logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/logo.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -88,13 +104,13 @@
 		"oAP": "/dev/index.html",
 		"oF": 0
 		},
-	"/dev/js/demo.js": {
+	"/dev/js/logo.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/demo-min.js",
+		"oAP": "/dev/js/logo-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -240,7 +256,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_dashboard.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -248,20 +264,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_dashboard.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
-		},
-	"/dev/scss/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/dev/scss/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
@@ -338,9 +344,9 @@
 	},
 "projectAttributes": {
 	"creationDate": 623518579.40050697,
-	"displayValue": "SVG-Design",
+	"displayValue": "Audi-Dashboard",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-grumpy",
+	"iconImageName": "meme-fry",
 	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
