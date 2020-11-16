@@ -2,11 +2,45 @@
     Base
 ============= */
 
-ul {
-    padding: 0;
-    margin: 0;
+#svg-container{
+    display: grid;
+    grid-template-columns: auto 90% auto;
+    grid-template-areas: ". svgs .";
 
-    li {
-        list-style: none;
+    @include md{
+        grid-template-columns: auto 80% auto;   
     }
+    
+    @include lg{
+        grid-template-columns: auto 50% auto;
+    }
+
+   >div{
+    grid-area: svgs;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: black;
+    
+    
+    position: relative;
+    section{
+        position: absolute;
+        top:10%;
+        left:0;
+        width: 100%;
+        
+
+        svg{
+            width: 100%;
+        }
+    }    
+
 }
+
+}
+
+       
+        
+         
