@@ -38,35 +38,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/deploy/logo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/logo.html",
-		"oF": 0
-		},
-	"/deploy/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/deploy/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/design/Dashbord SVG.sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -128,7 +99,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/dashboard-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -139,7 +110,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
 		"sC": 3,
@@ -320,10 +291,18 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/styles.css",
+		"oAP": "/deploy/css/styles.css",
 		"oF": 2,
 		"oS": 0,
 		"sct": 0
+		},
+	"/gsap-bonus.tgz": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/gsap-bonus.tgz",
+		"oF": 0
 		},
 	"/node_modules": {
 		"ft": 65536,

@@ -4,14 +4,12 @@ gsap.registerPlugin(GSDevTools);
 
 
 
-import {LogoAnimation} from "./logo.js"
-import {DashboardAnimation} from "./dashboard.js"
+//import {LogoAnimation} from "./logo.js"
+// import {DashboardAnimation} from "./dashboard.js"
 
-
-
-const mainTL = gsap.timeline();
-mainTL.add(LogoAnimation());
-mainTL.add(DashboardAnimation());
+//const mainTL = gsap.timeline();
+//mainTL.add(LogoAnimation());
+// mainTL.add(DashboardAnimation());
 
 
 
