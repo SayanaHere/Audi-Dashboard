@@ -1,0 +1,1 @@
+import{gsap}from"gsap";import{DrawSVGPlugin}from"gsap/DrawSVGPlugin";gsap.registerPlugin(DrawSVGPlugin),gsap.set("#Audi-Logo",{transformOrigin:"center"});export function LogoAnimation(){var r=gsap.timeline();return r.from("#circle-1",{duration:1,drawSVG:"50% 50%"}),r}

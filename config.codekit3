@@ -54,21 +54,21 @@
 		"oAP": "/design/Saji_Audi A6_storyboard.sketch",
 		"oF": 0
 		},
-	"/dev/content/dashboard.kit": {
+	"/dev/content/dashboard/dashboard.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/dashboard.html",
-		"oF": 0
-		},
-	"/dev/content/logo.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/deploy/index.html",
+		"oA": 0,
+		"oAP": "/deploy/dashboard.html",
 		"oF": 3
+		},
+	"/dev/content/logo/logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/logo.html",
+		"oF": 2
 		},
 	"/dev/global/head.kit": {
 		"cB": 0,
@@ -94,24 +94,24 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/dashboard.js": {
+	"/dev/js/dashboard/dashboard.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/dashboard-min.js",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "/deploy/dashboard-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/logo.js": {
+	"/dev/js/logo/logo.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
+		"oA": 1,
+		"oAP": "/deploy/logo-min.js",
 		"oF": 2,
 		"sC": 3,
 		"tS": 0

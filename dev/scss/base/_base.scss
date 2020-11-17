@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: auto 90% auto;
     grid-template-areas: ". svgs .";
+    background-color: black;
 
     @include md{
         grid-template-columns: auto 80% auto;   
