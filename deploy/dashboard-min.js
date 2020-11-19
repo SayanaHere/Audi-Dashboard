@@ -1,1 +1,1 @@
-import{gsap}from"gsap";import{DrawSVGPlugin}from"gsap/DrawSVGPlugin";gsap.registerPlugin(DrawSVGPlugin),gsap.set("#Dashboard",{transformOrigin:"center"});export function DashboardAnimation(){var r=gsap.timeline();return r.from("#logo",{duration:1,drawSVG:"50% 50%"}),r}
+import{gsap}from"gsap";import{DrawSVGPlugin}from"gsap/DrawSVGPlugin";gsap.registerPlugin(DrawSVGPlugin),gsap.set("#Dashboard",{transformOrigin:"center"});const dashboardtl=gsap.timeline();export function DashboardAnimation(){return dashboardtl.from("#Logo",{duration:1,y:"-=100",scale:.5}),dashboardtl}

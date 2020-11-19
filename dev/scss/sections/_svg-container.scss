@@ -1,0 +1,19 @@
+#svg-container{
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    grid-template-areas: ". audi .";
+    >div{
+        grid-area: audi;
+        position: relative;
+        border: 1px solid red;
+        height: 100vh;
+        width: 100%;
+
+        svg{
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+        }
+    }
+}

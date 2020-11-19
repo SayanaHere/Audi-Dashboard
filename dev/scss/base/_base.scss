@@ -2,45 +2,45 @@
     Base
 ============= */
 
-#svg-container{
-    display: grid;
-    grid-template-columns: auto 90% auto;
-    grid-template-areas: ". svgs .";
-    background-color: black;
+// #svg-container{
+//     display: grid;
+//     grid-template-columns: auto 90% auto;
+//     grid-template-areas: ". svgs .";
+//     background-color: black;
 
-    @include md{
-        grid-template-columns: auto 80% auto;   
-    }
+//     @include md{
+//         grid-template-columns: auto 80% auto;   
+//     }
     
-    @include lg{
-        grid-template-columns: auto 50% auto;
-    }
+//     @include lg{
+//         grid-template-columns: auto 50% auto;
+//     }
 
-   >div{
-    grid-area: svgs;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    background-color: black;
+//    >div{
+//     grid-area: svgs;
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;   
+//     background-color: black;
     
     
-    position: relative;
-    section{
-        position: absolute;
-        top:10%;
-        left:0;
-        width: 100%;
+//     position: relative;
+//     section{
+//         position: absolute;
+//         top:10%;
+//         left:0;
+//         width: 100%;
         
 
-        svg{
-            width: 100%;
-        }
-    }    
+//         svg{
+//             width: 100%;
+//         }
+//     }    
 
-}
+// }
 
-}
+// }
 
        
         
