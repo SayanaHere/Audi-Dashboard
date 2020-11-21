@@ -11,8 +11,12 @@ export function DashboardAnimation() {
     
     dashboardtl.to("#Logo", {
         duration: 1,
-        y: "-=100",
-        scale:0.5 });
+        y: "-=50",
+        x: "+=233",
+
+        scale:0.2 });
+        
+        
 
     return dashboardtl;
 }

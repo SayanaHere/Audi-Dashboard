@@ -35,16 +35,17 @@ export function LogoAnimation() {
         drawSVG: "50% 50%"
     });
 
-    // logotl.from("#Audi", {
+    logotl.from("#Audi", {
 
-    //     duration: 1,
-    //     y: -20
-    // });
+        duration: 1.6,
+        drawSVG: "50% 50%"
+        // y: -20
+    });
 
-    // logotl.to("#Audi-Logo", {
-    //     duration: 1,
-    //     y: 90
-    // });
+    logotl.to("#Audi-Logo", {
+        duration: 1,
+        y: 90
+    });
 
     return logotl;
 }

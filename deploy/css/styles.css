@@ -396,13 +396,14 @@ textarea {
   display: grid;
   grid-template-columns: auto 80% auto;
   grid-template-areas: ". audi .";
+  background-color: black;
 }
 #svg-container > div {
   grid-area: audi;
   position: relative;
-  border: 1px solid red;
   height: 100vh;
   width: 100%;
+  background-color: black;
 }
 #svg-container > div svg {
   position: absolute;
