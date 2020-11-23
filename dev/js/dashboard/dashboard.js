@@ -13,21 +13,35 @@ export function DashboardAnimation() {
     dashboardtl.to("#Logo", {
         duration: 0.3,
         y: "-=50",
-        x: "+=233",
+        x: "+=165",
 
-        scale:0.2 });
+        scale:0.4 });
+      
+        dashboardtl.to("#AudiName", {
+          duration: 0.3,
+          y: "-=120",
+          x: "+=-50",
+  
+          scale:1.5 });
 
 
     dashboardtl.from("#Speedometer", {
-            duration: 0.9,
+            duration: 0.7,
            alpha:-1
            
          });
 
     dashboardtl.from("#RPM", {
-            duration: 1,
+            duration: 0.9,
            alpha:-1
          });
+
+         dashboardtl.from("#RectangleRed", {
+          duration: 1,
+         alpha:-1
+         
+       });
+       
 
     dashboardtl.from("#Speed", {
             duration: 0.9,
@@ -39,50 +53,22 @@ export function DashboardAnimation() {
            alpha:-1
          });
 
-    dashboardtl.from("#Icon", {
+    dashboardtl.from("#Icons", {
             duration: 1,
            alpha:-1
          });
     
-         dashboardtl.from("#Music", {
-            duration: 0.6,
-           alpha:-1
-         });
-         dashboardtl.from("#Settings", {
-            duration: 1,
-           alpha:-1
-         });
-         dashboardtl.from("#Brightness", {
-            duration: 1,
-           alpha:-1
-         });
-         dashboardtl.from("#AC", {
-            duration: 1,
-           alpha:-1
-         });
-         dashboardtl.from("#Fan", {
-            duration: 1,
-           alpha:-1
-         });
          dashboardtl.from("#Temperaturefuel-", {
             duration: 1,
            alpha:-1
          });
-         dashboardtl.from("#Emergency", {
+         dashboardtl.from("#RPMIcons", {
             duration: 0.7,
            alpha:-1
          });
-         dashboardtl.from("#Fuel", {
-            duration: 0.7,
-           alpha:-1
-         });
-         dashboardtl.from("#Temperature", {
-            duration: 0.7,
-           alpha:-1
-         });
-        
+      
          dashboardtl.from("#Speed-Needle", {
-            duration: 4,
+            duration: 2,
            alpha:-1,
            rotate: 800
            

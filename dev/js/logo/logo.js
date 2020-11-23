@@ -15,6 +15,7 @@ const logotl = gsap.timeline();
 
 export function LogoAnimation() {
 
+
     logotl.from("#circle-1", {
         duration: 0.8,
         drawSVG: "50% 50%"
@@ -35,17 +36,15 @@ export function LogoAnimation() {
         drawSVG: "50% 50%"
     });
 
-    logotl.from("#Audi", {
-        duration: 0.8,
-        drawSVG: "50% 50%"
-    });
-
     logotl.to("#Audi-Logo", {
         duration: 0.8,
         y: 90
     });
 
-    
+    logotl.from("#AudiName", {
+        duration: 1,
+        drawSVG: "50% 50%"
+    });
 
     return logotl;
 }
