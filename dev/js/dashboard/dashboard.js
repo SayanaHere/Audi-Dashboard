@@ -13,16 +13,16 @@ export function DashboardAnimation() {
     dashboardtl.to("#Logo", {
         duration: 0.3,
         y: "-=50",
-        x: "+=165",
+        x: "+=197",
 
-        scale:0.4 });
+        scale:0.3 });
       
         dashboardtl.to("#AudiName", {
           duration: 0.3,
-          y: "-=120",
-          x: "+=-50",
+          y: "-=140",
+          x: "+=20",
   
-          scale:1.5 });
+          scale:0.9 });
 
 
     dashboardtl.from("#Speedometer", {
