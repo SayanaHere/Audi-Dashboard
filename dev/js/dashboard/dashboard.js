@@ -18,7 +18,7 @@ export function DashboardAnimation() {
         scale:0.3 });
       
         dashboardtl.to("#AudiName", {
-          duration: 0.3,
+          duration: 0.1,
           y: "-=140",
           x: "+=20",
   
@@ -27,9 +27,10 @@ export function DashboardAnimation() {
 
     dashboardtl.from("#Speedometer", {
             duration: 0.7,
-           alpha:-1
-           
+           alpha:-1,
+           y: "-=50"
          });
+        
 
     dashboardtl.from("#RPM", {
             duration: 0.9,
@@ -37,14 +38,13 @@ export function DashboardAnimation() {
          });
 
          dashboardtl.from("#RectangleRed", {
-          duration: 0.9,
+          duration: 0.5,
           drawSVG: "0%",
          alpha:-1,
-         ease: "power6.out"
-         
+         width: "-25"
        });
        
-
+      
     dashboardtl.from("#Speed", {
             duration: 0.9,
            alpha:-1
@@ -70,7 +70,7 @@ export function DashboardAnimation() {
          });
       
          dashboardtl.from("#Speed-Needle", {
-            duration: 4,
+            duration: 2.5,
            alpha:-1,
            rotate: 800
            
