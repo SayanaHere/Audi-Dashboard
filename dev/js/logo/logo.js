@@ -41,13 +41,28 @@ export function LogoAnimation() {
         y: 90
     });
 
-    logotl.from("#AudiName", {
-        duration: 1,
-        drawSVG: "50% 50%",
-        ease: "0.5"
+    // logotl.from("#AudiName-2", {
+    //     duration: 0.7,
+    //     drawSVG: "50% 50%",
+    //     ease: "0.5"
 
   
-    });
+    // });
+
+   logotl.from("#AudiName", {
+        duration: 0.4,
+        y: "-=140",
+        x: "+=20",
+        opacity:0,
+
+    scale:0.6 });   
+
+    logotl.to("#AudiName", {
+      duration: 1,
+      y: "-=20",
+      x: "+=5",
+      opacity:1,
+  scale:0.9 });  
 
     return logotl;
 }

@@ -411,9 +411,3 @@ textarea {
   left: 0;
   width: 100%;
 }
-
-#AudiName {
-  animation: fade 2s ease forwards;
-  opacity: 5;
-  animation-delay: 1s;
-}

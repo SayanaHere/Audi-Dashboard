@@ -13,14 +13,14 @@ export function DashboardAnimation() {
     dashboardtl.to("#Logo", {
         duration: 0.3,
         y: "-=50",
-        x: "+=197",
+        x: "+=205",
 
         scale:0.3 });
       
         dashboardtl.to("#AudiName", {
           duration: 0.1,
           y: "-=140",
-          x: "+=20",
+          x: "+=10",
   
           scale:0.9 });
 
@@ -49,7 +49,8 @@ export function DashboardAnimation() {
             duration: 0.9,
            alpha:-1
          });
-
+         
+       
     dashboardtl.from("#Circles", {
             duration: 1,
            alpha:-1
@@ -70,12 +71,13 @@ export function DashboardAnimation() {
          });
       
          dashboardtl.from("#Speed-Needle", {
-            duration: 2.5,
+            duration: 3,
            alpha:-1,
            rotate: 800
            
          });
 
+         
     return dashboardtl;
 
     
