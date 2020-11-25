@@ -43,7 +43,10 @@ export function LogoAnimation() {
 
     logotl.from("#AudiName", {
         duration: 1,
-        drawSVG: "50% 50%"
+        drawSVG: "50% 50%",
+        ease: "0.5"
+
+  
     });
 
     return logotl;

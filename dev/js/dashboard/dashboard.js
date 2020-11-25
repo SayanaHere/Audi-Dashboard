@@ -37,8 +37,10 @@ export function DashboardAnimation() {
          });
 
          dashboardtl.from("#RectangleRed", {
-          duration: 1,
-         alpha:-1
+          duration: 0.9,
+          drawSVG: "0%",
+         alpha:-1,
+         ease: "power6.out"
          
        });
        
@@ -68,11 +70,12 @@ export function DashboardAnimation() {
          });
       
          dashboardtl.from("#Speed-Needle", {
-            duration: 2,
+            duration: 4,
            alpha:-1,
            rotate: 800
            
          });
+
     return dashboardtl;
 
     
