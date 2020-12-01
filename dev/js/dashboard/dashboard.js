@@ -65,10 +65,18 @@ export function DashboardAnimation() {
             duration: 1,
            alpha:-1
          });
-         dashboardtl.from("#RPMIcons", {
-            duration: 0.7,
+         dashboardtl.from("#Emergency", {
+            duration: 0.3,
            alpha:-1
          });
+         dashboardtl.from("#Fuel", {
+          duration: 0.3,
+         alpha:-1
+       });
+       dashboardtl.from("#Temperature", {
+        duration: 0.3,
+       alpha:-1
+     });
       
          dashboardtl.from("#Speed-Needle", {
             duration: 3,
@@ -76,7 +84,7 @@ export function DashboardAnimation() {
            rotate: 800
            
          });
-
+         
          
     return dashboardtl;
 

@@ -42,9 +42,11 @@ export function LogoAnimation() {
     });
 
     // logotl.from("#AudiName-2", {
-    //     duration: 0.7,
+    //     duration: 1,
     //     drawSVG: "50% 50%",
-    //     ease: "0.5"
+    //     ease: "0.5",
+    //     autoAlpha: 1,
+    //     opacity: 0
 
   
     // });
