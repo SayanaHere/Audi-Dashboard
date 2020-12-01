@@ -16,13 +16,16 @@ var speedNumber = 0;
 var myVar = setInterval(speedCounter, counterSpeed);
 
 export function speedCounter() {
+    
 	if (speedNumber < topSpeed) {
         speedNumber++;
         document.getElementById("speedNumber").innerHTML = speedNumber;
-        
+      
 	} else {
 		clearInterval(myVar);
     }
-   
-	return speedNumber;
+
+
+    return speedNumber;
+    
 }

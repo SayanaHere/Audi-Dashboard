@@ -394,14 +394,14 @@ textarea {
 ============= */
 #svg-container {
   display: grid;
-  grid-template-columns: auto 80% auto;
+  grid-template-columns: auto 75% auto;
   grid-template-areas: ". audi .";
   background-color: black;
 }
 #svg-container > div {
   grid-area: audi;
   position: relative;
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   background-color: black;
 }
@@ -419,8 +419,8 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 132vh;
-  width: 158vh;
+  height: 127vh;
+  width: 153vh;
 }
 #speed > div {
   display: flex;

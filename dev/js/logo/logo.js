@@ -55,6 +55,7 @@ export function LogoAnimation() {
         duration: 0.4,
         y: "-=140",
         x: "+=20",
+        alpha: -6,
         opacity:0,
 
     scale:0.6 });   

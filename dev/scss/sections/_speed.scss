@@ -6,14 +6,15 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    height: 132vh;
-    width: 158vh;
+    height: 127vh;
+    width: 153vh;
 	> div {
 		display: flex;
 		h3 {
 			font-family: 'Montserrat', sans-serif;
             font-size: rem-calc(35);
             color: white;
+            // visibility: hidden;
 		}
 
 		// h4 {

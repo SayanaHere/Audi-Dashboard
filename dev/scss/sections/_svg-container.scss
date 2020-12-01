@@ -1,13 +1,13 @@
 #svg-container{
     display: grid;
-    grid-template-columns: auto 80% auto;
+    grid-template-columns: auto 75% auto;
     grid-template-areas: ". audi .";
     background-color: black;
     >div{
         grid-area: audi;
         position: relative;
         // border: 1px solid red;
-        height: 100vh;
+        height: 150vh;
         width: 100%;
         background-color: black;
 
