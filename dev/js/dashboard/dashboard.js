@@ -1,5 +1,6 @@
 import { gsap } from "gsap";
 import { DrawSVGPlugin} from "gsap/DrawSVGPlugin";
+import { startCounter } from "../speed/speed";
 
 gsap.registerPlugin(DrawSVGPlugin);
 
@@ -61,10 +62,10 @@ export function DashboardAnimation() {
            alpha:-1
          });
     
-         dashboardtl.from("#Temperaturefuel-", {
-            duration: 1,
-           alpha:-1
-         });
+        //  dashboardtl.from("#Temperaturefuel-", {
+        //     duration: 1,
+        //    alpha:-1
+        //  });
          dashboardtl.from("#Emergency", {
             duration: 0.3,
            alpha:-1
@@ -77,7 +78,11 @@ export function DashboardAnimation() {
         duration: 0.3,
        alpha:-1
      });
-      
+     dashboardtl.from("#speedNumber", {
+      duration: 0.3,
+     alpha:-1,
+     onComplete: startCounter
+   });
          dashboardtl.from("#Speed-Needle", {
             duration: 3,
            alpha:-1,
