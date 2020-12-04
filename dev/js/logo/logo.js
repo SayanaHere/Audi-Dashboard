@@ -51,22 +51,30 @@ export function LogoAnimation() {
   
     // });
 
-   logotl.from("#AudiName", {
-        duration: 0.4,
-        // y: "-=140",
-        // x: "+=20",
-        alpha: 0
-
-    // scale:0.6 
+   logotl.from("#A", {
+        duration: 0.2,
+        alpha: -1
+});  
+logotl.from("#U-", {
+    duration: 0.3,
+    alpha: -1
+});  
+logotl.from("#D", {
+    duration: 0.4,
+    alpha: -1
+});  
+logotl.from("#I", {
+    duration: 0.5,
+    alpha: -1
 });  
 
 //logotl.from(chars,{duration:0.5, alpha:0, stagger:0.25});
 
-    logotl.to("#AudiName", {
-      duration: 1,
-      y: "-=20",
-      x: "+=5",
-    scale:0.9 });  
+    // logotl.to("#AudiName", {
+    //   duration: 1,
+    //   y: "-=20",
+    //   x: "+=5",
+    // scale:0.9 });  
 
     return logotl;
 }

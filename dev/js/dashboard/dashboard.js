@@ -18,7 +18,7 @@ export function DashboardAnimation() {
 
         scale:0.3 });
       
-        dashboardtl.to("#AudiName", {
+        dashboardtl.to("#AudiName-", {
           duration: 0.1,
           y: "-=140",
           x: "+=10",
